@@ -13,3 +13,10 @@ Each encoding is  defined in a seperate class, and each class has a compress and
 
 The encoding schemes can be seen as an extended unit in the  https://github.com/sands-lab/grace/tree/master/grace_dl/dist/compressor
  of the following github project https://github.com/sands-lab/grace/ of Sands-Lab in KAUST.
+
+An ecoding scheme can be used as follows:
+
+my_scheme = <Encoding_Scheme_Class>()
+encoded_document = my_scheme.compress(qunatized_grads)
+decoded_document = my_scheme.decompress
+code_length_of_encoded_document = my_scheme.code_length
