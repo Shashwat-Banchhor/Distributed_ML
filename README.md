@@ -8,3 +8,5 @@ Currently this repository consists of six encoding schemes:
 4. Sample Huffman
 5. Sample Huffman with Sparsity
 6. Elias Omega Encoding
+
+Each encoding is  defined in a seperate class, and each class has a compress and a decompress member function. The compress function returns the encoded document and also update the Encoding class object with the encodings and revrerse mapping of the encodings which would later help in decompression. The decompress method decodes the encoded document and returns the decoded document.
