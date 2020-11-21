@@ -1,14 +1,14 @@
 # Author: Shashwat Banchhor
 # Email: shashwatbanchhor12@gmail.com
-# Might need some alterations to be able to run with the grace framework
-
+# Need some alterations to be able to run with the grace framework: Ex Including the compressor import and class signature
 import torch
 import numpy as np
-from grace_dl.dist import Compressor
+# from grace_dl.dist import Compressor
 
 import heapq
 
-class NormalHuffman(Compressor):
+# class NormalHuffman(Compressor):
+class NormalHuffman():
 # #     """Python libraries Based Compress by performing sparsification (i.e., sending a ratio of the actual tensor size."""
 
 	def __init__(self):

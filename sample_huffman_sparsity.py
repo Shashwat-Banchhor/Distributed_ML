@@ -1,6 +1,6 @@
 # Author: Shashwat Banchhor
 # Email: shashwatbanchhor12@gmail.com
-# Might need some alterations to be able to run with the grace framework
+# Need some alterations to be able to run with the grace framework: Ex Including the compressor import and class signature
 
 import torch
 import numpy as np
