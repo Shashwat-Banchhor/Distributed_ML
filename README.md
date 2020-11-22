@@ -1,5 +1,5 @@
-# distributed_ml
-Encoding schemes for communicating gradients in Distributed ML.
+# Distributed_ML
+This repository provides essential encoding techniques used in the work: "Huffman Coding Based Encoding Techniques for Fast Distributed Deep Learning". 
 
 Currently this repository consists of six encoding schemes:
 1. Run Length Encoding
@@ -20,3 +20,15 @@ my_scheme = <Encoding_Scheme_Class>()
 encoded_document = my_scheme.compress(qunatized_grads)
 decoded_document = my_scheme.decompress
 code_length_of_encoded_document = my_scheme.code_length
+
+
+
+If you use our codebase please cite our work:
+
+@inproceedings{ddl_huffman,
+   title       = {Huffman Coding Based Encoding Techniques for Fast Distributed Deep Learning},
+   author      = {Rishikesh R. Gajjala and Shashwat Banchhor and Ahmed M. Abdelmoniem and Aritra Dutta and Marco Canini and Panos Kalnis},
+   year        = 2020,
+   doi         ={10.1145/3426745.3431334},
+   booktitle   = {Proceedings of ACM CoNEXT 1st Workshop on Distributed Machine Learning (DistributedML '20)},
+}
