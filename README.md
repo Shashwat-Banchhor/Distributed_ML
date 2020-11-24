@@ -5,9 +5,9 @@ Currently this repository consists of six encoding schemes:
 1. Run Length Encoding
 2. Normal Huffman Encoding
 3. Elias Omega Encoding
-4. Sample Huffman (Ours)
-5. Sample Huffman with Sparsity (Ours)
-6. Run Length Huffman (Ours)
+4. **Sample Huffman** (Ours)
+5. **Sample Huffman with Sparsity** (Ours)
+6. **Run Length Huffman** (Ours)
 
 ## How it Works
 
