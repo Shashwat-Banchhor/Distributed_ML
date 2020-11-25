@@ -30,12 +30,12 @@ code_length_of_encoded_document = my_scheme.code_length
 ```
 
 ## Supported Frameworks
-The codes are **NOT** dependent on any specific APIs or framework and can be run as independent python scripts.
+The encoding techniques are **NOT** dependent on any specific APIs or framework and can be run as independent python scripts. They can be integrated into Horovod API, OpenMPI, NVIDIA NCCL, and Facebook Gloo.
 
 ## Citation
 If you use our codebase please cite our work:
 
-Rishikesh R. Gajjala, Shashwat Banchhor, Ahmed M. Abdelmoniem, Aritra Dutta, MarcoCanini, and Panos Kalnis.“Huffman coding based encoding techniques for fast distributeddeep learning,” in Proceedings of ACM CoNEXT 1st Workshop on Distributed MachineLearning (DistributedML ’20), 2020
+“Huffman coding based encoding techniques for fast distributed deep learning,” Rishikesh R. Gajjala, Shashwat Banchhor, Ahmed M. Abdelmoniem, Aritra Dutta, Marco Canini, and Panos Kalnis. In Proceedings of ACM CoNEXT 1st Workshop on Distributed MachineLearning (DistributedML ’20), 2020.
 
 Here's a BibTex:
 ``` 
@@ -50,7 +50,7 @@ Here's a BibTex:
 
 ## Questions
 We welcome any questions or suggestions or comments. Please feel to contact any of us. 
-* [Aritra Dutta](aritra.dutta@kaust.edu.sa)
-* [Shashwat Banchhor](shashwatbanchhor12@gmail.com)
+* [Aritra Dutta](mailto:aritra.dutta@kaust.edu.sa)
+* [Shashwat Banchhor](mailto:shashwatbanchhor12@gmail.com)
 
 
