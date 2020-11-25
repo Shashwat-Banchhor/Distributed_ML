@@ -32,7 +32,7 @@ code_length_of_encoded_document = my_scheme.code_length
 ```
 
 ## Supported Frameworks
-The encoding techniques are **NOT** dependent on any specific APIs or framework and can be run as independent python scripts. They can be integrated into Horovod API, OpenMPI, NVIDIA NCCL, and Facebook Gloo.
+The encoding techniques are **NOT** dependent on any specific APIs or framework and can be run as independent python scripts. **They can be integrated into Horovod API**, OpenMPI, NVIDIA NCCL, and Facebook Gloo.
 
 ## Citation
 If you use our codebase please cite our work:
