@@ -11,6 +11,8 @@ Currently this repository consists of six encoding schemes:
 
 ## How it Works
 
+![alttext](encode_dnn.jpg)
+* **(a)** Distributed DNN training from the perspective of ith node. **(b)** Compression, encoding, and decompression. This work focuses on providing efficient encoding operator `C(.)` for quantization operator `Q(.)`
 
 Each encoding is  defined in a seperate class, and each class has a `compress` and a `decompress` member function. The `compress` function returns the encoded document and updates the Encoding class object with the encodings and reverses mapping of the encodings which would later help in decompression. The `decompress` function decodes the encoded document and returns the decoded document (in our case, the gradient vector).
 
