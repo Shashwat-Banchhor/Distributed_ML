@@ -51,8 +51,9 @@ Here's a BibTex:
 ```
 
 ## Questions
-We welcome any questions or suggestions or comments. Please feel to contact any of us. 
+We welcome any questions or suggestions or comments. Please feel free to contact any of us. 
 * [Aritra Dutta](mailto:aritra.dutta@kaust.edu.sa)
+* [Rishikesh R. Gajjala](mailto:gsmrishi@gmail.com)
 * [Shashwat Banchhor](mailto:shashwatbanchhor12@gmail.com)
 
 
