@@ -1,5 +1,5 @@
 # Distributed_ML
-This repository provides essential encoding techniques used in the work: "Huffman Coding Based Encoding Techniques for Fast Distributed Deep Learning". 
+This repository provides essential encoding techniques used in the work: "[Huffman Coding Based Encoding Techniques for Fast Distributed Deep Learning](https://dl.acm.org/doi/abs/10.1145/3426745.3431334)". 
 
 Currently this repository consists of six encoding schemes:
 1. Run Length Encoding
@@ -41,12 +41,21 @@ If you use our codebase please cite our work:
 
 Here's a BibTex:
 ``` 
-@inproceedings{ddl_huffman,
-   title       = {Huffman Coding Based Encoding Techniques for Fast Distributed Deep Learning},
-   author      = {Rishikesh R. Gajjala and Shashwat Banchhor and Ahmed M. Abdelmoniem and Aritra Dutta and Marco Canini and Panos Kalnis},
-   year        = 2020,
-   doi         ={10.1145/3426745.3431334},
-   booktitle   = {Proceedings of ACM CoNEXT 1st Workshop on Distributed Machine Learning (DistributedML '20)},
+@inproceedings{10.1145/3426745.3431334,
+    author = {Gajjala, Rishikesh R. and Banchhor, Shashwat and Abdelmoniem, Ahmed M. and Dutta, Aritra and Canini, Marco and Kalnis, Panos},
+    title = {Huffman Coding Based Encoding Techniques for Fast Distributed Deep Learning},
+    year = {2020},
+    isbn = {9781450381826},
+    publisher = {Association for Computing Machinery},
+    address = {New York, NY, USA},
+    url = {https://doi.org/10.1145/3426745.3431334},
+    doi = {10.1145/3426745.3431334},
+    booktitle = {Proceedings of the 1st Workshop on Distributed Machine Learning},
+    pages = {21–27},
+    numpages = {7},
+    keywords = {Elias and Run-length Encoding, Gradient compression, Huffman coding, Distributed training, Quantization},
+    location = {Barcelona, Spain},
+    series = {DistributedML'20}
 }
 ```
 
